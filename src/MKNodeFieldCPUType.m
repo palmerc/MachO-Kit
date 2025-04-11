@@ -28,7 +28,6 @@
 #import "MKNodeFieldCPUType.h"
 #import "MKInternal.h"
 #import "MKNodeDescription.h"
-#import "MKDataModel+Layout_Internal.h"
 
 //----------------------------------------------------------------------------//
 @implementation MKNodeFieldCPUType

@@ -25,13 +25,13 @@
 //| SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //----------------------------------------------------------------------------//
 
-#import "MKBindAction.h"
-#import "MKInternal.h"
-#import "MKBindingsInfo.h"
-#import "MKBindCommand.h"
-#import "MKMachO+Segments.h"
-#import "MKSegment.h"
-#import "MKSection.h"
+#import <MachOKit/MKBindAction.h>
+#import <MachOKit/MKInternal.h>
+#import <MachOKit/MKBindingsInfo.h>
+#import <MachOKit/MKBindCommand.h>
+#import <MachOKit/MKMachO+Segments.h>
+#import <MachOKit/MKSegment.h>
+#import <MachOKit/MKSection.h>
 
 //----------------------------------------------------------------------------//
 @implementation MKBindAction

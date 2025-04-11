@@ -9,6 +9,10 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+.idea
+builddir
+dist
+
 # User specific Xcode files #
 #############################
 *.xcworkspace
