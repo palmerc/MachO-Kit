@@ -36,7 +36,7 @@ const struct _mk_load_command_vtable _mk_load_command_load_dylinker_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_load_dylinker_id()
+uint32_t mk_load_command_load_dylinker_id(void)
 { return LC_LOAD_DYLINKER; }
 
 //|++++++++++++++++++++++++++++++++++++|//

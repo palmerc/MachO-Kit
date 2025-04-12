@@ -36,7 +36,7 @@ const struct _mk_load_command_vtable _mk_load_command_function_starts_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_function_starts_id()
+uint32_t mk_load_command_function_starts_id(void)
 { return LC_FUNCTION_STARTS; }
 
 //|++++++++++++++++++++++++++++++++++++|//

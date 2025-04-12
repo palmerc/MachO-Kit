@@ -49,7 +49,7 @@ const struct _mk_load_command_vtable _mk_load_command_sub_client_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_sub_client_id()
+uint32_t mk_load_command_sub_client_id(void)
 { return LC_SUB_CLIENT; }
 
 //|++++++++++++++++++++++++++++++++++++|//

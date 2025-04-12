@@ -49,7 +49,7 @@ const struct _mk_load_command_vtable _mk_load_command_twolevel_hints_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_twolevel_hints_id()
+uint32_t mk_load_command_twolevel_hints_id(void)
 { return LC_TWOLEVEL_HINTS; }
 
 //|++++++++++++++++++++++++++++++++++++|//

@@ -36,7 +36,7 @@ const struct _mk_load_command_vtable _mk_load_command_load_dylib_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_load_dylib_id()
+uint32_t mk_load_command_load_dylib_id(void)
 { return LC_LOAD_DYLIB; }
 
 //|++++++++++++++++++++++++++++++++++++|//

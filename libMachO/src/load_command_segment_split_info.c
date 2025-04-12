@@ -36,7 +36,7 @@ const struct _mk_load_command_vtable _mk_load_command_segment_split_info_class =
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_segment_split_info_id()
+uint32_t mk_load_command_segment_split_info_id(void)
 { return LC_SEGMENT_SPLIT_INFO; }
 
 //|++++++++++++++++++++++++++++++++++++|//

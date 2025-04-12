@@ -36,7 +36,7 @@ const struct _mk_load_command_vtable _mk_load_command_dyld_info_only_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_dyld_info_only_id()
+uint32_t mk_load_command_dyld_info_only_id(void)
 { return LC_DYLD_INFO_ONLY; }
 
 //|++++++++++++++++++++++++++++++++++++|//

@@ -49,7 +49,7 @@ const struct _mk_load_command_vtable _mk_load_command_routines_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_routines_id()
+uint32_t mk_load_command_routines_id(void)
 { return LC_ROUTINES; }
 
 //|++++++++++++++++++++++++++++++++++++|//

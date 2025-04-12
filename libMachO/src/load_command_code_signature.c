@@ -36,7 +36,7 @@ const struct _mk_load_command_vtable _mk_load_command_code_signature_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_code_signature_id()
+uint32_t mk_load_command_code_signature_id(void)
 { return LC_CODE_SIGNATURE; }
 
 //|++++++++++++++++++++++++++++++++++++|//

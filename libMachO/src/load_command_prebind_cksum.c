@@ -47,7 +47,7 @@ const struct _mk_load_command_vtable _mk_load_command_prebind_cksum_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_prebind_cksum_id()
+uint32_t mk_load_command_prebind_cksum_id(void)
 { return LC_PREBIND_CKSUM; }
 
 //|++++++++++++++++++++++++++++++++++++|//

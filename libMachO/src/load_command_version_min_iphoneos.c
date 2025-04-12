@@ -52,7 +52,7 @@ const struct _mk_load_command_vtable _mk_load_command_version_min_iphoneos_class
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_version_min_iphoneos_id()
+uint32_t mk_load_command_version_min_iphoneos_id(void)
 { return LC_VERSION_MIN_IPHONEOS; }
 
 //|++++++++++++++++++++++++++++++++++++|//

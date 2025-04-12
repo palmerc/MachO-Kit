@@ -50,7 +50,7 @@ const struct _mk_load_command_vtable _mk_load_command_sub_framework_class = {
 
 //|++++++++++++++++++++++++++++++++++++|//
 uint32_t
-mk_load_command_sub_framework_id()
+mk_load_command_sub_framework_id(void)
 { return LC_SUB_FRAMEWORK; }
 
 //|++++++++++++++++++++++++++++++++++++|//

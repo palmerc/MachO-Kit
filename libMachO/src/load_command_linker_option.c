@@ -74,7 +74,7 @@ const struct _mk_load_command_vtable _mk_load_command_linker_option_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_linker_option_id()
+uint32_t mk_load_command_linker_option_id(void)
 { return LC_LINKER_OPTION; }
 
 uint32_t

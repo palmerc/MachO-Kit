@@ -67,7 +67,7 @@ const struct _mk_load_command_vtable _mk_load_command_segment_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_segment_id()
+uint32_t mk_load_command_segment_id(void)
 { return LC_SEGMENT; }
 
 //|++++++++++++++++++++++++++++++++++++|//

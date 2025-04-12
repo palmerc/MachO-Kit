@@ -176,7 +176,7 @@ struct mk_data_model_s LP64_byte_order = {
 
 //|++++++++++++++++++++++++++++++++++++|//
 mk_data_model_ref
-mk_data_model_ilp32()
+mk_data_model_ilp32(void)
 {
     mk_data_model_ref data_model;
     data_model.data_model = &ILP32_byte_order;
@@ -185,7 +185,7 @@ mk_data_model_ilp32()
 
 //|++++++++++++++++++++++++++++++++++++|//
 mk_data_model_ref
-mk_data_model_lp64()
+mk_data_model_lp64(void)
 {
     mk_data_model_ref data_model;
     data_model.data_model = &LP64_byte_order;

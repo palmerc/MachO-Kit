@@ -36,7 +36,7 @@ const struct _mk_load_command_vtable _mk_load_command_dyld_environment_class = {
 };
 
 //|++++++++++++++++++++++++++++++++++++|//
-uint32_t mk_load_command_dyld_environment_id()
+uint32_t mk_load_command_dyld_environment_id(void)
 { return LC_DYLD_ENVIRONMENT; }
 
 //|++++++++++++++++++++++++++++++++++++|//
