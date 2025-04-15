@@ -1,3 +1,10 @@
+## CMake Edition
+
+    mkdir builddir
+    cmake -G Ninja -B builddir -D CMAKE_INSTALL_PREFIX=dist ..
+    cmake --build builddir
+    cmake --build builddir --target install
+
 <p align="center">
     <img width="850" height="200" src="https://raw.githubusercontent.com/DeVaukz/MachO-Kit/master/.github/banner.png">
 </p>
